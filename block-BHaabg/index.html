@@ -1,0 +1,75 @@
+<!-- ### Exercise
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the logo to the left and all the navigation to the right.
+
+3. The header must be fixed at the top of the page.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fender</title>
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+    <header class="headbox">
+        <div class="box1">
+          <div class="logo">
+              <img class="image1" src="/assets/Fender-Logo.png" alt="fender logo">
+          </div><!--
+          --><div class="pointersbox">
+              <nav class="pointers">
+                  <a class="point" href="#">Home</a>
+                  <a class="point" href="#">Products</a>
+                  <a class="point" href="#">Contact Us</a>
+              </nav>
+            </div>
+        </div>  
+      </header>
+      <!-- article -->
+      <main class="boxmain">
+       <article class="content">
+         <div class="column1">
+           <h1>Fender Stratocaster</h1><br>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit atque voluptates pariatur. Ipsam magnam nostrum autem quo inventore commodi debitis sint totam quidem accusantium, impedit porro reiciendis?<br> Dolor, quam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta quae cumque repellat! Exercitationem nobis fugiat, magni dolores nisi tempora, amet voluptate voluptatibus esse eligendi minus labore neque aut eius pariatur?</p>
+         </div>
+         <div class="column2">
+           <img class="guitar" src="/assets/strat.jpg" alt="Fender Stratocaster">
+         </div>
+       </article>
+        <!--Gallery  -->
+       <section class="gallery">
+          <h3>Gallery</h3>
+          <div class="row1">
+              <img class="rowpics" src="/assets/gibson-es-335.jpg" alt="gibson es 335">
+              <img class="rowpics" src="/assets/gibson-les-paul.jpg" alt="les paul">
+              <img class="rowpics" src="/assets/download.jpg" alt="download">
+          </div>
+          <div class="row1">
+            <img class="rowpics" src="/assets/jimihendrix.jpg" alt="gibson es 335">
+            <img class="rowpics" src="/assets/feat-march-28-7.jpg" alt="les paul">
+            <img class="rowpics" src="/assets/cute-puppies.jpg" alt="download">
+        </div>
+       </section>
+    </main> 
+    <footer>
+        <p>&copy; all rights reserved.</p>
+    </footer>
+    <!-- circle -->
+    <nav class="circlebox">
+    <a class="circle" href="index.html">Top</a>
+    </nav>
+</body>
+</html>
